@@ -4,24 +4,25 @@
 /**
  * main - alphabets
  *
- * Return: Always 0 (Success)
+ * Return: Always 0 (Successful)
  *
  */
 
 int main(void)
 {
+	char ch;
 
-	char al;
 
-		for (al = "a"; al <= "z"; al++)
 
-			{
+		for (ch = 'a'; ch <= 'z'; ch++)
 
-				putchar(al);
+				{
 
-			}
+							putchar(ch);
 
-				putchar('\n');
+								}
 
-			return (0);
+			putchar('\n');
+
+				return (0);
 }
