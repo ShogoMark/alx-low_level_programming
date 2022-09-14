@@ -11,18 +11,17 @@
 int main(void)
 {
 
-	char alpha;
+	char al;
 
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
+		for (al = "a"; al <= "z"; al++)
 
 			{
 
-				putchar(alpha);
+				putchar(al);
 
 			}
 
 				putchar('\n');
 
 			return (0);
-
 }
