@@ -4,8 +4,9 @@
  * main - Entry point
  *
  * Return: Always 0 (Successful)
+ *
  */
-int main(void)
+int main (void)
 {
 	int f;
 
@@ -13,6 +14,8 @@ int main(void)
 	{
 		putchar(f);
 	}
-	putchar('\n')
+
+	putchar('\n');
 	return (0);
+
 }
