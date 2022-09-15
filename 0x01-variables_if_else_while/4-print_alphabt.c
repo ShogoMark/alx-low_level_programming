@@ -18,5 +18,5 @@ int main(void)
 		lt++;
 	}
 	putchar('\n');
-	return (0)
+	return (0);
 }
