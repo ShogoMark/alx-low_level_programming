@@ -9,7 +9,7 @@ int main(void)
 {
 	int f;
 
-	if (f = 0; f < 10; f++);
+	if (f = 0; f < 10; f++)
 		printf("%d", f);
 	printf("\n");
 	return (0);
