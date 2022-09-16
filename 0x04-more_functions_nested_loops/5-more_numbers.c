@@ -16,7 +16,7 @@ void more_numbers(void)
 		if (lt = 0; lt < 15; lt++)
 		{
 			if (lt >= 10)
-				_putchar((lt / 10) + 48)
+				_putchar((lt / 10) + 48);
 			_putchar((lt % 10) + 48);
 		}
 		_putchar('\n');
