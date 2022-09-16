@@ -4,10 +4,11 @@
 /**
  * _isupper - function that checks uppercase character.
  *
+ * c: an input character.
  * Return: 1 if c is uppercase or 0 otherwise
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	char uppercase;
 	int isupper = 0;
