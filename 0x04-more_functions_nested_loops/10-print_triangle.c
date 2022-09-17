@@ -4,7 +4,9 @@
  * print_triangle - function that prints a triangle,followed by a new lie
  * @size: size of triangle
  * Return: Always 0
+ *
  */
+
 void print_triangle(int size)
 {
 	int i = 0, j, n = size -1;
