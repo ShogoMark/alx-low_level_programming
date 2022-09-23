@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+/**
+ * main - prints a variable followed by new line
+ * Return: Always 0
+ */
+
 int main(void)
 {
 	int n;
