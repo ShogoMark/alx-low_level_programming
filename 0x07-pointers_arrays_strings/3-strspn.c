@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_strspn - gets the length of a prefix substring
+/**
+ * _strspn - gets the length of a prefix substring
  * @s: String where substring will work on
  * @accept: Substring of accepted chars
  * Return: Length of occurrence
