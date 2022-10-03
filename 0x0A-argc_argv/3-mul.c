@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two integers
@@ -8,20 +9,18 @@
  * Return: 0
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
 	int i, mut = 0;
-	(void)argc;
 
 	for (i = 1; i < argc; i++)
 	{
-		printf("%d\n", argv[i]);
-		mut = mut * argv[i];
+		printf("%s\n", argv[i]);
+		mut = mut * atoi(argv[i]);
 	}
-	if (i < 2)
+	if (argc < 2)
 	{
 		printf("Error\n");
-		return (1);
 	}
 	else
 	{
