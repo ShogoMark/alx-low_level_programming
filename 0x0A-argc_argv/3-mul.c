@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 		printf("%s\n", argv[i]);
 		mut = mut * atoi(argv[i]);
 	}
-	if (argc < 2)
+	if (argc != 3)
 	{
 		printf("Error\n");
 	}
