@@ -8,10 +8,9 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	printf("argc = %d\n", argc);
-	printf('\n');
-
+	(void)argv;
+	printf("argc = %d\n", argc - 1);
 	return (0);
 }
