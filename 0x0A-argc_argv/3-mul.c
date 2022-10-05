@@ -11,20 +11,18 @@
 
 int main(int argc, char *argv[])
 {
-	int i, mut = 0;
+	int fig_1, fig_2, mut;
 
-	for (i = 1; i < argc; i++)
-	{
-		printf("%s\n", argv[i]);
-		mut = mut * atoi(argv[i]);
-	}
 	if (argc != 3)
 	{
 		printf("Error\n");
 	}
 	else
 	{
-		printf("Product = %d\n", mut);
+		fig_1 = atoi(argv[1]);
+		fig_2 = atoi(argv[2]);
+		mut = fig_1 * fig_2;
+		printf("%d\n", mut);
 	}
 	return (0);
 }
