@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isdigit - checks if parameter is a number between 0 to 9.
- * @c: digit to be checked
- * Return: 1 if c is a digit, otherwise 0
+ * _isdigit - checks if parammeter is a number between 0 - 9.
+ * @c: number to be checked
+ * Return: 1 if c is a digit between 0 and 9, else 0
  */
 
 int _isdigit(int c)

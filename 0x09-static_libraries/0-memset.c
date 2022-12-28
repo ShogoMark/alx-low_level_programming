@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * _memset - fills memory with a constant byte
- * @s: pointer to char params
+ * _memset - fills memory with constant byte
+ * @s: pointer to char parameters
  * @b: data to change
  * @n: index
  * Return: pointer to modified string

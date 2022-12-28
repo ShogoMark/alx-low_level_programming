@@ -7,6 +7,7 @@
  * @n: amount of bytes used from src.
  * Return: a pointer to the resulting string dest
  */
+
 char *_strncat(char *dest, char *src, int n)
 {
 	int count = 0, count2 = 0;
