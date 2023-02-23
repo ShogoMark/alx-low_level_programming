@@ -4,3 +4,6 @@ OBJ= $(SRCS:.c=.o)
 NAME= school
 all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
+
+clean:
+	rm -f $(OBJ)
