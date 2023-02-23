@@ -6,4 +6,4 @@ all: $(OBJ)
 	$(CC) $(OBJ) -o $(NAME)
 
 clean:
-	rm -f $(OBJ)
+	rm -f $(NAME) $(OBJ)
