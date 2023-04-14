@@ -8,7 +8,7 @@
 */
 
 void print_array(int *array, size_t low, size_t high)
-{	
+{
 	char *separator = NULL;
 
 	printf("Searching in array: ");
@@ -21,7 +21,7 @@ void print_array(int *array, size_t low, size_t high)
 		separator = ", ";
 	}
 	printf("\n");
-}	
+}
 
 
 /**
@@ -39,7 +39,7 @@ int binary_search(int *array, size_t size, int value)
 
 	if (array == NULL)
 		return (-1);
-	
+
 	print_array(array, low, high);
 	while (low != high)
 	{
